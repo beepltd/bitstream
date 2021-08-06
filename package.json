@@ -1,0 +1,22 @@
+{
+  "name": "bitstream",
+  "version": "1.0.0",
+  "description": "BitStream allows for easy manipulation of long strings of bits, for both reading and writing.",
+  "main": "src/bitstream.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beepltd/bitstream.git"
+  },
+  "author": "Beep Ltd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beepltd/bitstream/issues"
+  },
+  "homepage": "https://github.com/beepltd/bitstream#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
