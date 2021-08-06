@@ -1,6 +1,6 @@
 {
   "name": "bitstream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "BitStream allows for easy manipulation of long strings of bits, for both reading and writing.",
   "main": "src/bitstream.ts",
   "scripts": {
