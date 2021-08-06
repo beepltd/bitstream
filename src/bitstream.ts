@@ -3,7 +3,7 @@ export default class BitStream {
   _bitLength : number = 0;
   _cursor : number = 0;
 
-  constructor(stream : Array<number>=null) {
+  constructor(stream : Array<number>|null=null) {
     if (stream !== null) {
       this._stream = stream;
       this._bitLength = this._stream.length * 8;
