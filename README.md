@@ -39,14 +39,14 @@ let book = bitstream.readBool(); //reads true from the stream
 | `bool`           | `readBool()`                     | `writeBool(input)`                       |
 | `string` (ASCII) | `readAsciiString({bytes, bits})` | `writeAsciiString(input, {bytes, bits})` |
 | `string` (HEX)   | `readHexString({bytes, bits})`   | `writeHexString(input, {bytes, bits})`   |
-| `Uint8List`      | `readBytes({bytes, bits})`       | `writeBytes(input, {bytes, bits})`       |
+| `number[]`      | `readBytes({bytes, bits})`       | `writeBytes(input, {bytes, bits})`       |
 | `BitStream`      | `readBitStream({bytes, bits})`   |                                          |
 
 ## Additional Methods
 
 | Method Name         | Description                                                  |
 | ------------------- | ------------------------------------------------------------ |
-| `checkBit(int bit)` | Returns a `bool` if a bit is set or not (does not progress the cursor) |
+| `checkBit(bit: int)` | Returns a `bool` if a bit is set or not (does not progress the cursor) |
 | `toString()`        | Returns a binary representation of the current stream        |
 | `getStream()`       | Gets the current stream data as a `number[]`                |
 | `getLength()`       | Gets the current length of the stream                        |
